@@ -1,0 +1,117 @@
+body
+{
+
+}
+.all
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.youtube
+{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%);
+    width:150px;
+    height:50px;
+    background:red;
+    font-weight:bolder;
+    font-family:courier;
+    font-size:1.5em;
+    border-radius:10px;
+    border:2px solid black;
+}
+
+.y
+{
+    text-decoration:none;
+    color:white;
+    position:relative;
+    left:25px;
+    top:10px;
+    text-shadow:2px 2px silver;
+}
+
+.blog
+{
+    width:178px;
+    height:40px;
+    background:green;
+    position:absolute;
+    padding:5px;
+    top:20%;
+    left:50%;
+    transform:translate(-50%);
+    font-family:courier;
+    font-weight:bolder;
+    font-size:1.5em;
+    border-radius:10px;
+    border:2px solid black;
+}
+.b{
+    text-decoration:none;
+    position:relative;
+    color:white;
+    left:3px;
+    top:5px;
+    text-shadow:2px 2px silver;
+}
+
+
+ input[type="checkbox"]
+{
+    -webkit-appearance:none;
+    width:100px;
+    height:50px;
+    background-color: #FFCC21;
+    border-radius:50px;
+    outline:none;
+    border:2px solid black;
+}
+input:checked[type="checkbox"]
+{
+    background-color: black;
+}
+input[type="checkbox"]:before
+{
+    content: " ";
+    position: absolute;
+    width:35px;
+    height:35px;
+    background:url("https://i.ibb.co/MP7kfVy/kisspng-cartoon-sun-5aa18799cfc412-323267561520535449851.png");
+    border-radius: 50px;
+    background-color: white;
+    top:10px;
+    left:14px;
+    transition-duration: 0.5s;
+    background-size: 110%;
+}
+input:checked[type="checkbox"]:before
+{
+    left:60px;
+    background-image:url();
+    background-color: #FFCC21;
+
+}
+input[type="checkbox"]:after
+{
+    content: " ";
+    position: absolute;
+    width:35px;
+    height:35px;
+    background:transparent;
+    border-radius: 50px;
+    top:10px;
+    left:2px;
+    background-size: 110%;
+}
+input:checked[type="checkbox"]:after
+{
+    left:52px;
+    top:6px;
+    background-color: black;
+
+}
